@@ -8,18 +8,29 @@ $(document).ready(function() {
     var moveLeft = 0;
 
     $('body').keydown(function(e) {
-        e.preventDefault();
         if (e.which === 39) {
-            console.log("in key code 39");
+            e.preventDefault();
             moveRight += 50;
-            console.log(moveRight.toString());
             $player1.css('margin-left', '+=50');
-        } else if (e.which === 37) {
-            console.log("in key code 37");
+        }
+        if (e.which === 37) {
+            e.preventDefault();
             moveLeft += 50
-            console.log(moveLeft.toString());
             $player2.css('margin-left', '+=50');
         }
-    });
 
+    });
 })
+
+var winner = (function() {
+    if ($player1.css 'margin-left' === 1250) {
+        console.log("Player 1 wins!");
+
+        else if ($player2 'margin-left' === 1250) {
+            console.log("Player 2 wins!");
+        }
+    }
+});
+
+// if $player1.css('margin-left' === 1250) {
+// console.log("Player 1 wins!");

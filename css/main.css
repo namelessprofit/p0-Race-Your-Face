@@ -9,32 +9,32 @@ h1 {
 }
 
 body {
-    background-image: url('../images/backimage.jpg');
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('../images/backimage.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin-top: 150px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 150px;
 }
 
 img {
-    height: 150px;
-    width: 200px;
+  height: 150px;
+  width: 200px;
 }
 
 #board {
-    margin-top: 175px;
+  margin-top: 175px;
 }
 
 #buttonBoard {
-margin-left: 625px;
-margin-top: 60px;
-margin-bottom: 30px;
+  margin-left: 625px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .button{
@@ -53,7 +53,7 @@ margin-bottom: 30px;
 }
 
 .reset:hover {
-background-color: #3e8e41
+  background-color: #3e8e41
 }
 
 .reset:active {

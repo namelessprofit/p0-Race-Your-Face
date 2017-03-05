@@ -28,9 +28,15 @@ var winner = function() {
     console.log("Player 2 wins!");
 }
 }
-});
-//function to reset game
-$('#reload').click(function() {
-    location.reload();
+function resetGame() {
+document.getElementById('reload');
 console.log("new game!");
+}
+//function to reset game
+// function resetGame() {
+// document.getElementById('reload');
+// // $('#reload').click(function() {
+// //     location.reload();
+// console.log("new game!");
+// }
 });

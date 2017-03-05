@@ -18,19 +18,27 @@ $(document).ready(function() {
             moveLeft += 50
             $player2.css('margin-left', '+=50');
         }
+        var winner = (function() {
+            if (($player1.css)
+                'margin-left' === 1250)) {
+            console.log("Player 1 wins!");
 
+        } else if ($player2.css 'margin-left' === 1250) {
+            console.log("Player 2 wins!");
+        }
     });
 })
 
-var winner = (function() {
-    if ($player1.css 'margin-left' === 1250) {
-        console.log("Player 1 wins!");
-
-        else if ($player2 'margin-left' === 1250) {
-            console.log("Player 2 wins!");
-        }
-    }
-});
+// var winner = (function() {
+//     if (($player1.css)
+//         'margin-left' === 1250)) {
+//     console.log("Player 1 wins!");
+//
+// } else if ($player2.css 'margin-left' === 1250) {
+//     console.log("Player 2 wins!");
+// }
+// }
+// });
 
 // if $player1.css('margin-left' === 1250) {
 // console.log("Player 1 wins!");

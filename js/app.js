@@ -14,6 +14,7 @@ $(document).ready(function() {
             e.preventDefault();
             moveRight += 50;
             $player1.css('margin-left', '+=50');
+            //conditional statement to call the helper function
             if ($player1.css('margin-left') == '1200px') {
                 winner($player1);
             }
@@ -23,6 +24,7 @@ $(document).ready(function() {
             e.preventDefault();
             moveLeft += 50;
             $player2.css('margin-left', '+=50');
+            //conditional statement to call the helper function
             if ($player2.css('margin-left') == '1200px') {
                 winner($player2);
             }
@@ -34,7 +36,7 @@ $(document).ready(function() {
             alert("Player 1 Wins! ");
         } else if (player == $player1 && $player2) {
             alert("It's A Draw!")
-        }  else {
+        } else {
             alert("Player 2 Wins!");
         }
     }

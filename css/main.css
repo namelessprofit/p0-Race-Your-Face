@@ -28,13 +28,13 @@ img {
 }
 
 #board {
-  margin-top: 175px;
+  margin-top: 150px;
 }
 
 #buttonBoard {
   margin-left: 625px;
   margin-top: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .button{
@@ -46,18 +46,16 @@ img {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #008CBA;
+  background-color: #0d4399;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
 }
 
-.reset:hover {
-  background-color: #3e8e41
+.button:hover {
+  background-color: #2e8be8;
 }
 
-.reset:active {
-  background-color: #3e8e41;
+.button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

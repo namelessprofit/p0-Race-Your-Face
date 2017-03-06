@@ -17,21 +17,21 @@ $(document).ready(function() {
 //conditional statement to move player 2 right
         if (e.which === 37) {
             e.preventDefault();
-            moveLeft += 50
+            moveLeft += 50;
             $player2.css('margin-left', '+=50');
         }
     })
+});
 //function to declare winner
-var winner = $('body').keydown(function(e) {
-    if (e.moveRight >= 1200) {
-    console.log("Player 1 wins!");
-} else if ($player1.css.marginleft >= 1200) {
-    console.log("Player 2 wins!");
+var winner =   $('body').keydown(function(e){
+  if (e.which === 39 && $player1.css.marginleft >= 1200){
+ console.log("Player 1 Wins!")
 }
-})
+win ();
 });
+
 //function to reset game
-$('#reload').click(function() {
-    location.reload();
-console.log("new game!");
-});
+// $('#reload').click(function() {
+//     location.reload();
+// console.log("new game!");
+// });

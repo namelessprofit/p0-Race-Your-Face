@@ -2,11 +2,13 @@
 $(document).ready(function() {
     console.log("ready!");
 
+    //good variable naming conventions
     var $player1 = $('#player1');
     var $player2 = $('#player2');
     var moveRight = 0;
     var moveLeft = 0;
 
+    //thanks for adding comments to say what you're doing!
     //function to move player 1 & 2 right
     $('body').keydown(function(e) {
         //conditional statement to move player 1 right
@@ -41,7 +43,10 @@ $(document).ready(function() {
         }
     }
     //function to reset game
+    //good feature
     $('#reload').click(function() {
         location.reload();
     });
 });
+
+//super clear, clean logic - thank you!!
